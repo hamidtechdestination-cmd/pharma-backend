@@ -16,7 +16,7 @@ connectDB();
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:5173", // frontend URL
+    origin: "https://pharma-frontend-omega.vercel.app", // frontend URL
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true, // allow cookies / auth headers
   })
